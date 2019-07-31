@@ -6,6 +6,11 @@
 			shape-rendering: geometricPrecision;
 		}
 		
+		text {
+            alignment-baseline: middle;
+			text-anchor: middle;
+		}
+		
 		#clock_rim {
 			fill: #0D3B66;
 		}
@@ -34,19 +39,30 @@
 		}
 		
         #scale_numbers text {
-            alignment-baseline: middle;
-			text-anchor: middle;
 			text-rendering: geometricPrecision;
 			fill: #7B94AB;
 			stroke: none;
 			font-size: 35px;
 			font-family: Helvetica;
-			text-anchor: middle; 
         }
 		
 		#scale_bars path[id^="scale_multiple"] {
 			stroke: #4F708F;
 			stroke-width: 2;
+		}
+		
+		#top_text text {
+			fill: #e6e6ff;
+			stroke: #00004d;
+			stroke-width: 1.5;
+			font-size: 30px;
+			font-family: Helvetica;
+		}
+		
+		#bottom_text text {
+			fill: #b3b3ff;
+			font-size: 20px;
+			font-family: Helvetica;
 		}
 
         /* ]]> */
@@ -55,6 +71,12 @@
     <path d="M 300, 300 m 0, -300 a 300, 300, 0, 1, 0, 1, 0 Z m 0 20 a 280, 280, 0, 1, 1, -1, 0Z" id="clock_rim"/>
     <!-- https://www.smashingmagazine.com/2019/03/svg-circle-decomposition-paths/ -->
     <path d="M 25 300 a 275 275 0 1 0 550 0 a 275 275 0 1 0 -550 0z" id="clock_face"/>
+	<g id="top_text">
+		<text x="300" y="205">ClockFace</text>
+	</g>
+	<g id="bottom_text">
+		<text x="300" y="355">sndjones</text>
+	</g>
     <path d="M 300 300 L 30 300" transform="rotate(-65 300 300)" id="clock_second" />
     <path d="M 300 300 L 60 300" transform="rotate(-10 300 300)" id="clock_minute" />
     <path d="M 300 300 L 150 300" transform="rotate(-100 300 300)" id="clock_hour" />
