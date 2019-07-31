@@ -85,7 +85,7 @@
             <text x="402" y="123" text-rendering="geometricPrecision" id="scale_number1">1</text>
             <text x="483" y="200" text-rendering="geometricPrecision" id="scale_number2">2</text>
             <text x="515" y="305" text-rendering="geometricPrecision" id="scale_number3">3</text>
-            <text x="483" y="400" text-rendering="geometricPrecision" id="scale_number4">4</text>
+            <text x="477.53" y="402.5" text-rendering="geometricPrecision" id="scale_number4">4</text>
             <text x="300" y="95" style="fill: #7B94AB; stroke: none; font-size: 30px; font-family: Helvetica; text-anchor: middle;" text-rendering="geometricPrecision" transform="rotate(150 300 300) rotate(-150 300 90)" id="scale_number5">5</text>
             <text x="300" y="95" style="fill: #7B94AB; stroke: none; font-size: 30px; font-family: Helvetica; text-anchor: middle;" text-rendering="geometricPrecision" transform="rotate(180 300 300) rotate(-180 300 90)" id="scale_number6">6</text>
             <text x="300" y="95" style="fill: #7B94AB; stroke: none; font-size: 30px; font-family: Helvetica; text-anchor: middle;" text-rendering="geometricPrecision" transform="rotate(210 300 300) rotate(-210 300 90)" id="scale_number7">7</text>
